@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>cadastro</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="cabecario">
+                <div class="titulo">
+                    <h2>Ficha cadastral</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="formulario">
+                <form action="ficha_cadastral">
+                    <div class="nome">
+                        <label>Nome:
+                            <input type="text" name="nome" size="55" maxlength="55"></br>
+                        </label>
+                    </div>
+
+                    <div class="rg">
+                        <label>RG:
+                            <input type="text" name="rg" size="13" maxlength="13"></input>
+                        </label>
+                    </div>
+
+                    <div class="cpf">
+                        <label>CPF:
+                            <input type="text" name="cpf" size="13" maxlength="13"></input></br>
+                        </label>
+                    </div>
+
+                    <div class="endereco">
+                        <label>Endereço:
+                            <input type="text" name="endereco" size="55" maxlength="55"></input></br>
+                        </label>
+                    </div>
+
+                    <div class="sexo">
+                        <label>Sexo:
+                            <select name="sexo" id="sexo">
+                                <option value="homem">Masculino</option>
+                                <option value="mulher">Feminino</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="data">
+                        <label>Data de Nascimento:
+                            <input type="text" name="data" size="13" maxlength="13"></br>
+                        </label>
+                    </div>
+
+                    <div class="estado_civil">
+                        <label>Situação Civil
+                            <div class="estado_civil">
+                                <div class="casado">Casado(a)<input type="radio" name="estado_civil"></div>
+                                <div class="solteiro">Solteiro(a)<input type="radio" name="estado_civil"></div>
+                                <div class="viuvo">Viuvo(a)<input type="radio" name="estado_civil"></div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="botao"><input type="submit" value="Cadastrar"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
