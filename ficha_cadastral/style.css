@@ -30,28 +30,62 @@ body {
     font-size: 0.8em;
     justify-content: center;
     align-items: center;
-    background-color: rgb(15, 66, 53);
+    background-color: rgb(110, 187, 168);
 }
 
 input[type=text] {
     margin-top: 3px;
 }
 
-.nome input[type="text"]{
-   margin-left: 55px;
+.nome input[type="text"] {
+    margin-left: 55px;
 }
 
-.rg input[type="text"]{
+.rg input[type="text"] {
     margin-left: 70px;
- }
-
-.cpf input[type="text"]{
-    position: absolute;
-    margin-left: 360px;
-    margin-top: -21px;
+    margin-top: 5px;
 }
 
-.cpf label{
-    width: 35px;
-    position: relative;
+.cpf input[type="text"] {
+    position: absolute;
+    margin-left: 111px;
+    margin-top: -1px;
+}
+
+#cpf {
+    margin-left: 242px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.endereco input[type="text"] {
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.sexo select {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.data input[type="text"] {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -4px;
+}
+
+#data {
+    margin-left: 242px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.estado_civil_lista input[type=radio] {
+    position: absolute;
+}
+
+#solteiro {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 150px;
 }

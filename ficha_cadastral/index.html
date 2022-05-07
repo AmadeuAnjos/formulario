@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>cadastro</title>
+    <title>UNIP - ANCHIETA</title>
 </head>
 
 <body>
@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="cpf">
-                        <label>CPF:
+                        <label id="cpf">C.P.F.:
                             <input type="text" name="cpf" size="13" maxlength="13"></input></br>
                         </label>
                     </div>
@@ -58,17 +58,18 @@
                     </div>
 
                     <div class="data">
-                        <label>Data de Nascimento:
+                        <label id="data">Data de Nascimento:
                             <input type="text" name="data" size="13" maxlength="13"></br>
                         </label>
                     </div>
 
                     <div class="estado_civil">
                         <label>Situação Civil
-                            <div class="estado_civil">
-                                <div class="casado">Casado(a)<input type="radio" name="estado_civil"></div>
-                                <div class="solteiro">Solteiro(a)<input type="radio" name="estado_civil"></div>
-                                <div class="viuvo">Viuvo(a)<input type="radio" name="estado_civil"></div>
+                            <div class="estado_civil_lista">
+                                <div id="casado" class="casado">Casado(a)<input type="radio" name="estado_civil"></div>
+                                <div id="solteiro" class="solteiro">Solteiro(a)<input type="radio" name="estado_civil">
+                                </div>
+                                <div id="viuvo" class="viuvo">Viuvo(a)<input type="radio" name="estado_civil"></div>
                             </div>
                         </label>
                     </div>
