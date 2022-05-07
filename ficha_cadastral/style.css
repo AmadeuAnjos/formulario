@@ -24,13 +24,12 @@ body {
 }
 
 .formulario {
-    height: 250px;
+    height: 120px;
     display: flex;
     font-family: Arial;
     font-size: 0.8em;
     justify-content: center;
     align-items: center;
-    background-color: rgb(110, 187, 168);
 }
 
 input[type=text] {
@@ -80,12 +79,39 @@ input[type=text] {
     position: absolute;
 }
 
+.estado_civil {
+    position: absolute;
+    margin-top: 8px;
+}
+
 .estado_civil_lista input[type=radio] {
     position: absolute;
+}
+
+#casado {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 102px;
 }
 
 #solteiro {
     position: absolute;
     margin-top: -15px;
-    margin-left: 150px;
+    margin-left: 250px;
+}
+
+#viuvo {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 400px;
+}
+
+.botao {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 210px;
+}
+
+.estado_civil_lista label {
+    margin: 1.5rem;
 }
